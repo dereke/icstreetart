@@ -1,76 +1,45 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-
-    <meta charset="utf-8"/>
-  <title>IC Street Art</title>
-  <link rel="icon" sizes="192x192" href="icstreetart_400x400.jpg">
-  <style>
-  body {
-    margin: 0;
-    background-color: #a5aaad;
-  }
-  .cover {
-    background-color: #fdd2ff;
-  }
-  .cover img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  li {
-    list-style-type: none;
-  }
-
-  .social-icon {
-    width: 100px;
-  }
-
-  .socials {
-    margin: auto;
-    margin-top: 20px;
-    padding: 20px 0px;
-    background-color: #fff;
-  }
-
-  .socials a {
-    display: flex;
-    align-items: center;
-  }
-
-  .socials a span {
-    margin-left: 10px;
-  }
-
-  @media (min-width: 480px) {
-    .cover {
-      height: 300px;
-    }
-    .cover img {
-      object-fit: contain;
-    }
-
-    .socials {
-      border: 5px solid #454a4d;
-      width: 470px;
-    }
-    .socials a {
-      justify-content: flex-start;
-      padding-left: 70px;
-    }
-  }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="global.dist.css" rel="stylesheet" />
   </head>
-  <body>
-    <div class="cover">
-      <img src="icstreetart.jpg" />
-    </div>
+  <body class="bg-ic mx-auto bg-[url('purple-drip.png')] bg-no-repeat bg-right-top">
+    <header class="flex text-xl font-brice p-10">
+      <span class="text-white flex-1">
+        #ICStreetArt
+      </span>
+      <span>
+        <a href="#" class="mr-10">About</a>
+        <a href="#" class="mr-10">Roadmap</a>
+        <a href="#" class="mr-10">Team</a>
+        <a href="#">Follow us</a>
+      </span>
+    </header>
+    <div class="w-3/4 mx-auto">
+      <h1 class="text-8xl text-center text-white font-brice uppercase mt-20">
+        Hall of fame
+      </h1>
+      <h2 class="text-4xl text-center text-white font-brice uppercase mt-6">
+        You're in control of your wall
+      </h2>
 
-    <ul class="socials">
-      <li><a href="https://discord.gg/zT6JQ6VrRt"><img src="icons8-discord.svg" class="social-icon" /> <span>Discord</span></a></li>
-      <li><a href="https://twitter.com/ICstreetart"><img src="icons8-twitter.svg" class="social-icon" /> <span>Twitter</span></a></li>
-      <li><a href="https://www.instagram.com/explore/tags/icstreetart/"><img src="icons8-instagram.svg" class="social-icon" /> <span>Instagram</span></a></li>
-    </ul>
+      <div class="flex justify-center">
+        <img src="character.png" />
+      </div>
+
+      <div class="text-center uppercase text-lg">
+        <div class="mx-auto">
+          <span class="block"><span class="font-brice">Hall of fame</span> a collection of 1080 unique characters</span>
+          <span class="block">with over 200 traits, some rarer than others, you choose what's on your wall.</span>
+          <span class="block">Available on Entrepot.</span>
+        </div>
+
+        <div class="font-brice text-center w-1/2 mx-auto my-10">
+          A new way of collection NFTs is about to hit the blockchain
+        </div>
+      </div>
+    </div>
   </body>
 </html>
