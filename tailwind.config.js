@@ -14,7 +14,8 @@ module.exports = {
         brice: ["BriceBlack", "cursive"],
       },
       colors: {
-        ic: '#cc72f6'
+        icpurple: '#cc72f6',
+        icpink: '#ff93ce'
       }
     },
   },
