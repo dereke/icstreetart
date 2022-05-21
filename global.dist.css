@@ -514,6 +514,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 50%;
 }
 
+.w-64 {
+  width: 16rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -522,8 +530,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: flex-end;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .bg-icpurple {
@@ -536,6 +552,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 147 206 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'purple-drip\.png\'\)\] {
   background-image: url('purple-drip.png');
 }
@@ -546,6 +572,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[url\(\'line-drip\.png\'\)\] {
   background-image: url('line-drip.png');
+}
+
+.bg-\[url\(\'spray\.png\'\)\] {
+  background-image: url('spray.png');
 }
 
 .bg-right-top {
@@ -564,6 +594,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 5rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -574,6 +608,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-brice {
   font-family: BriceBlack, cursive;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-xl {
@@ -606,6 +644,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -613,6 +660,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 @font-face {
