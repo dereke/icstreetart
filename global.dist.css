@@ -522,8 +522,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 8rem;
 }
 
+.w-20 {
+  width: 5rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-end {
@@ -578,6 +594,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('spray.png');
 }
 
+.bg-\[url\(\'pink-dline-drip\.pngspray\.png\'\)\] {
+  background-image: url('pink-dline-drip.pngspray.png');
+}
+
+.bg-\[url\(\'pink-dline-drip\.png\'\)\] {
+  background-image: url('pink-dline-drip.png');
+}
+
 .bg-right-top {
   background-position: right top;
 }
@@ -596,6 +620,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .text-center {
@@ -647,6 +679,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
