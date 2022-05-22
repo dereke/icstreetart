@@ -468,6 +468,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -494,6 +498,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2.5rem;
 }
 
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.mt-\[200px\] {
+  margin-top: 200px;
+}
+
+.mb-\[200px\] {
+  margin-bottom: 200px;
+}
+
 .block {
   display: block;
 }
@@ -508,6 +524,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-32 {
   width: 8rem;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .min-w-\[100\] {
@@ -573,8 +593,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('spray.png');
 }
 
+.bg-\[url\(\'spray-bottom\.png\'\)\] {
+  background-image: url('spray-bottom.png');
+}
+
 .bg-right-top {
   background-position: right top;
+}
+
+.bg-left-top {
+  background-position: left top;
+}
+
+.bg-left-bottom {
+  background-position: left bottom;
 }
 
 .bg-no-repeat {
@@ -679,6 +711,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-80 {
     width: 20rem;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:flex-row {
