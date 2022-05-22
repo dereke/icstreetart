@@ -6,11 +6,11 @@
     <link href="global.dist.css" rel="stylesheet" />
   </head>
   <body class="bg-icpurple mx-auto">
-    <header class="flex text-xl font-brice p-10">
+    <header class="flex text-xl font-brice p-10 flex-col sm:flex-row">
       <span class="text-white flex-1">
         #ICStreetArt
       </span>
-      <span>
+      <span class="grid sm:inline">
         <a href="#about" class="mr-10">About</a>
         <a href="#roadmap" class="mr-10">Roadmap</a>
         <a href="#team" class="mr-10">Team</a>
@@ -20,11 +20,11 @@
 
 
 
-    <div class="bg-[url('purple-drip.png')] bg-no-repeat bg-right-top p-20">
-      <h1 class="text-8xl text-center text-white font-brice uppercase">
+    <div class="bg-[url('purple-drip.png')] bg-no-repeat bg-right-top lg:p-20">
+      <h1 class="text-4xl lg:text-8xl text-center text-white font-brice uppercase">
         Hall of fame
       </h1>
-      <h2 class="text-4xl text-center text-white font-brice uppercase mt-6">
+      <h2 class="text-3xl lg:text-4xl text-center text-white font-brice uppercase mt-6">
         You're in control of your wall
       </h2>
 
@@ -46,12 +46,12 @@
     </div>
 
 
-    <div class="bg-icpink bg-[url('line-drip.png')] bg-no-repeat p-10">
+    <div class="bg-icpink bg-[url('line-drip.png')] bg-no-repeat p-6 lg:p-10">
       <a name="about">
       <h3 class="text-5xl text-center text-white font-brice uppercase mt-6 mb-6">About</h3>
       <div class="flex items-end">
-        <div class="font-brice text-6xl text-right">
-          <div>1080T unique NFT's</div>
+        <div class="font-brice text-3xl lg:text-6xl text-right">
+          <div>1080 unique NFT's</div>
           <div>Living on the ICP</div>
           <div>Blockchain</div>
         </div>
@@ -73,12 +73,12 @@
       </div>
     </div>
 
-    <div class="bg-icpink bg-[url('spray.png')] bg-no-repeat bg-right-top p-10 uppercase">
+    <div class="bg-icpink bg-[url('spray.png')] bg-no-repeat bg-right-top p-6 lg:p-10 uppercase">
       <a name="roadmap">
       <h3 class="text-5xl text-center text-white font-brice uppercase mt-6 mb-6">Roadmap</h3>
 
-      <div class="w-3/4 mx-auto">
-        <div class="flex items-center p-6">
+      <div class="lg:w-3/4 mx-auto">
+        <div class="flex justify-between lg:items-center lg:p-6 pt-6">
           <div class="w-32">
             <div class="font-bold text-white rounded-full bg-black flex items-center justify-center font-brice text-center" style="height: 100px; width: 100px; font-size: 20px;">June<br>15</div>
           </div>
@@ -88,9 +88,9 @@
           </div>
         </div>
 
-        <div class="flex items-center p-6">
+        <div class="flex items-center lg:p-6 pt-6">
           <div class="w-32">
-            <img src="community.png" />
+            <img src="community.png" class="min-w-[100px]" />
           </div>
           <div>
             <span class="font-brice text-2xl">Community Giveaway</span>
@@ -100,7 +100,7 @@
           </div>
         </div>
 
-        <div class="flex items-center p-6">
+        <div class="flex items-center lg:p-6 pt-6">
           <div class="w-32">
             <div class="font-bold text-white rounded-full bg-black flex items-center justify-center font-brice text-center" style="height: 100px; width: 100px; font-size: 20px;">June<br>15</div>
           </div>
@@ -110,9 +110,9 @@
           </div>
         </div>
 
-        <div class="flex items-center p-6">
+        <div class="flex items-center lg:p-6 pt-6">
           <div class="w-32">
-            <img src="minting.png" />
+            <img src="minting.png" class="min-w-[100px]" />
           </div>
           <div>
             <span class="font-brice text-2xl">Start minting</span>
@@ -120,9 +120,9 @@
           </div>
         </div>
 
-        <div class="flex items-center p-6">
+        <div class="flex items-center lg:p-6 pt-6">
           <div class="w-32">
-            <img src="rewards.png" />
+            <img src="rewards.png" class="min-w-[100px]" />
           </div>
           <div>
             <span class="font-brice text-2xl">Rewards for the non pyros</span>
@@ -130,7 +130,7 @@
           </div>
         </div>
 
-        <div class="flex items-center p-6">
+        <div class="flex items-center lg:p-6 pt-6">
           <div class="w-32">
             <div class="font-bold text-white rounded-full bg-black flex items-center justify-center font-brice text-center" style="height: 100px; width: 100px; font-size: 20px;">June<br>15</div>
           </div>
@@ -144,7 +144,7 @@
       </div>
     </div>
 
-    <div class="bg-icpink bg-[url('spray.png')] bg-no-repeat bg-right-top p-10 uppercase">
+    <div class="bg-icpink bg-[url('spray.png')] bg-no-repeat bg-right-top p-6 lg:p-10 uppercase">
       <a name="team">
       <h3 class="text-5xl text-center text-white font-brice uppercase mt-6 mb-6">Team</h3>
 
@@ -152,32 +152,32 @@
         <img src="team-drawing.png" />
       </div>
 
-      <div class="font-brice text-5xl text-white flex justify-center">
+      <div class="font-brice text-4xl lg:text-5xl text-white flex justify-center">
         <div>
-        <div class="flex p-6">
-          <div class="w-80">Derek</div>
+        <div class="flex p-6 flex-col lg:flex-row text-center lg:text-left">
+          <div class="lg:w-80">Derek</div>
           <div class="text-3xl">Wizz kid</div>
         </div>
 
-        <div class="flex p-6">
-          <div class="w-80">Perry</div>
+        <div class="flex p-6 flex-col lg:flex-row text-center lg:text-left">
+          <div class="lg:w-80">Perry</div>
           <div class="text-3xl">Wizz kid</div>
         </div>
 
-        <div class="flex p-6">
-          <div class="w-80">Nipper</div>
+        <div class="flex p-6 flex-col lg:flex-row text-center lg:text-left">
+          <div class="lg:w-80">Nipper</div>
           <div class="text-3xl">Wizz kid</div>
         </div>
 
-        <div class="flex p-6">
-          <div class="w-80">45RPM</div>
+        <div class="flex p-6 flex-col lg:flex-row text-center lg:text-left">
+          <div class="lg:w-80">45RPM</div>
           <div class="text-3xl">Wizz kid</div>
         </div>
       </div>
       </div>
     </div>
 
-    <div class="bg-icpink bg-[url('spray.png')] bg-no-repeat bg-right-top p-10 uppercase">
+    <div class="bg-icpink bg-[url('spray.png')] bg-no-repeat bg-right-top p-6 lg:p-10 uppercase">
       <a name="info">
       <h3 class="text-5xl text-center text-white font-brice uppercase mt-6 mb-6">All the info</h3>
       <div class="text-center font-bold">
