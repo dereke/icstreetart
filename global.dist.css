@@ -530,6 +530,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 16rem;
 }
 
+.w-\[250px\] {
+  width: 250px;
+}
+
 .min-w-\[100px\] {
   min-width: 100px;
 }
@@ -540,6 +544,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-end {
@@ -556,6 +564,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
 .rounded-full {
@@ -687,8 +701,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: inline;
   }
 
+  .sm\:w-full {
+    width: 100%;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:flex-nowrap {
+    flex-wrap: nowrap;
   }
 }
 
