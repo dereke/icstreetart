@@ -705,6 +705,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 100%;
   }
 
+  .sm\:w-32 {
+    width: 8rem;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
